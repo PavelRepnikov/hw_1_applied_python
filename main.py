@@ -42,5 +42,5 @@ st.subheader("Numerical Characteristics")
 numerical_summary = data_corr.describe()
 st.dataframe(numerical_summary)
 
-if __name__ == "__main__":
-    st.run_app()
+#if __name__ == "__main__":
+#    st.run_app()
