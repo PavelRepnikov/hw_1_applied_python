@@ -24,8 +24,8 @@ sns.histplot(data[selected_feature], kde=True)
 st.set_option('deprecation.showPyplotGlobalUse', False)
 st.pyplot()
 
-#columns_to_drop = ['EDUCATION', 'MARITAL_STATUS', 'GEN_INDUSTRY', 'GEN_TITLE', 'JOB_DIR', 'FAMILY_INCOME']
-#data_corr = data.drop(columns=columns_to_drop)
+columns_to_drop = ['EDUCATION', 'MARITAL_STATUS', 'GEN_INDUSTRY', 'GEN_TITLE', 'JOB_DIR', 'FAMILY_INCOME']
+data_corr = data.drop(columns=columns_to_drop)
 #st.subheader("Correlation Matrix")
 #corr_matrix = data.corr()
 #sns.heatmap(corr_matrix, annot=True, cmap="coolwarm", fmt=".2f")
