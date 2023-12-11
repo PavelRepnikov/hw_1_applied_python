@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-data_url = "https://github.com/PavelRepnikov/hw_1_applied_python/blob/main/hw_1_data.csv"
+data_url = "./hw_1_data.csv"
 data = pd.read_csv(data_url)
 
 st.title("Exploratory Data Analysis with Streamlit")
