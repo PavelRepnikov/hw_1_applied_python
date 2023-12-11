@@ -33,7 +33,7 @@ data_corr = data.drop(columns=columns_to_drop)
 
 st.subheader("Target Variable vs Features")
 target_variable = st.selectbox("Select the target variable", data_corr.columns)
-sns.scatterplot(x=data[selected_feature], y=data[target_variable])
+sns.scatterplot(x=data[selected_feature], y=data['TARGET'])
 plt.xlabel(selected_feature)
 plt.ylabel(target_variable)
 st.pyplot()
